@@ -1,1 +1,128 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		1
+	</title>
+
+	<!--rel"stylesheet" type="text/css" href=""-->
+
+<style>
+    body {
+      background-color: #e6f9ff;
+    }
+
+    h1 {
+      color: #0099ff;
+      text-align: center;
+	  background-color:navy;
+	  font-size:150px;
+	  font-family: verdana;
+	  margin-bottom:0;
+	  margin-top:0;
+    }
+	h2 {
+		text-align:center;
+		color:#0099ff;
+		background-color:;
+		font-size:50px;
+		font-family: verdana;
+		margin-top:0;
+	}
+
+	h3 {
+		text-align:center;
+		color:#fff;
+		background-color: #0099e6;
+		font-size:20px;
+		font-family: verdana;
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+
+    p {
+      color: #0099ff;
+      font-family: verdana;
+      font-size: 20px;
+	  margin-left: 100px;
+	  margin-right: 100px;
+	  text-align:center;
+    }
+
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #008ae6;
+	  width: 100%;
+	}
+
+	li {
+	  float: right;
+	}
+
+	#logo {
+		width: 270px;
+		height: 135px;
+	}
+	#lia {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  text-decoration: none;
+	}
+	#resize {
+		width:50px; 
+		height:50px;
+	    padding: 40px 40px;
+	}
+	#resizee {
+		width:50px; 
+		height:50px;
+	    padding: 40px 40px;
+	}
+	#resizeee {
+		width:50px; 
+		height:50px;
+	    padding: 40px 40px;
+	}
+
+	li a:hover {
+	  background-color: #006bb3;
+	}
+	
+
+
+</style>
+
+<body style="height:10000px">
+<ul style="position:fixed; RIGHT:0.5px">
+  <img id="logo" src="Downloads/sdg16andsdg.svg" style="position:fixed; TOP:8px;">
+  <li><a id="lia" href=#><img src="Downloads/home.png" id="resize"></a></li>
+  <li><a id="lia" href=#><img src="Downloads/newspaper.png" id="resizee"></a></li>
+  <li><a id="lia" href=#><img src="Downloads/saving-money(1).png" id="resizeee"></a></li>
+</ul>
+
+
+<script>
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+	    document.getElementById("logo").style.width = "147px";
+		document.getElementById("logo").style.height = "73.5px";
+		document.getElementById("resize").style.padding = "10px 40px";
+		document.getElementById("resizee").style.padding = "10px 40px";
+		document.getElementById("resizeee").style.padding = "10px 40px";
+	}else {
+	    document.getElementById("logo").style.width = "270px";
+		document.getElementById("logo").style.height = "135px";
+		document.getElementById("resize").style.padding = "40px 40px";
+		document.getElementById("resizee").style.padding = "40px 40px";
+		document.getElementById("resizeee").style.padding = "40px 40px";
+	}
+	
+}	
+</script> 
